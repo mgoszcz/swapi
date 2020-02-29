@@ -2,7 +2,9 @@ import requests
 
 
 class SWApi:
-
+    """
+    SWAPI handling
+    """
     def __init__(self):
         self.planets = list()
         self.initialize_planets()
